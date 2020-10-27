@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 1000px;
+}
+.jumbotron {
+    width: 800px;
+    height: 700px;
+    margin: 50px auto 0;
+}
+.carousel{
+  height: 100%;
+  float: left;
+  width: 640px;
+  position: relative;
+}
+.left{
+  height: 100%;
+  float: left;
+  width: 70px;
+  display: flex;
+}
+.right{
+  height: 100%;
+  float: left;
+  width: 70px;
+  display: flex;
+}
+i{
+  margin: auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+ img.active {
+    display: block;
+}
+
+
+
+
+.skip {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+ span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+span.active {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
