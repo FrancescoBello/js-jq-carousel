@@ -17,13 +17,13 @@ body{
   width: 640px;
   position: relative;
 }
-.left{
+.prev{
   height: 100%;
   float: left;
   width: 70px;
   display: flex;
 }
-.right{
+.next{
   height: 100%;
   float: left;
   width: 70px;
