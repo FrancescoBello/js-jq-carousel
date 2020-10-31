@@ -27,5 +27,5 @@ $(".skip span").click(function() {
   span_attivo.removeClass("active")
 
     $(this).addClass("active")
-    var indice_pallino = $(this).index();
+    var numero_span = $(this).index();
   })
